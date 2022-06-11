@@ -1,0 +1,41 @@
+.contenedor_banner{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;    
+}
+.subcontenedor_banner1,.subcontenedor_banner2{
+    width: 40%;
+    margin:15px;
+}
+.subcontenedor_banner1{
+    display: flex;
+    align-items: center;
+}
+.subcontenedor_banner1 .titulo_principal{
+    width: 100%;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    color:rgb(37, 124, 165);
+}
+.imagen_banner{
+    width: 125px;
+    height: 125px;
+}
+.contenedor_peliculas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom:40px;
+}
+.subcontenedor_peliculas{
+    width: 20%;
+}
+.subcontenedor_peliculas a{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+    color:rgb(41, 161, 216);
+    display:block;
+}
